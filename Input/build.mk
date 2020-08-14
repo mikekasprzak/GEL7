@@ -1,0 +1,2 @@
+DEFINE						+=	USES_INPUT
+USES_INPUT					:=	1

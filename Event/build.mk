@@ -1,0 +1,2 @@
+DEFINE						+=	USES_EVENT
+USES_EVENT					:=	1

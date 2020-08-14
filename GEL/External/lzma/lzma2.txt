@@ -1,0 +1,7 @@
+Hey Mike
+
+LZMA2 isn't needed. LZMA2 was designed to help fragment very large LZMA files (256 MB+) across 
+multiple cores (4 minimum). As a result, performance is better, but only in the quad core cases. 
+If you're not multi-core compressing or decompressing, then you really don't need it.
+
+Ta ta!

@@ -1,0 +1,2 @@
+DEFINE						+=	USES_ANDROID
+USES_ANDROID				:=	1

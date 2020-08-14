@@ -1,0 +1,4 @@
+DEFINE						+=	USES_GEL_EXTERNAL
+USES_GEL_EXTERNAL			:=	1
+
+INCLUDE_DIRS				+=	src/GEL/External
