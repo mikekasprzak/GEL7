@@ -28,6 +28,8 @@ You should do the following on a fresh install.
 ln -s /c/Work            # from your home folder
 pacman -Su
 pacman -S git make nano
+pacman -S mingw32/mingw-w64-i686-git-lfs
+pacman -S mingw64/mingw-w64-x86_64-git-lfs
 ```
 
 If you come from Ubuntu, you're going to find some shorthands you rely on like `ll` are unavailable, and `ls` lacks any color.
