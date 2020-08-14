@@ -3,6 +3,6 @@ The `Build` folder contains GNU Makefile modules for various build targets. A ta
 
 Some platforms are not practical to be built using Makefile's and the CLI, so in those cases source builds with project files are generated instead.
 
-* `/Target/` - The various build targets
-* `/Include/` - Mini makefiles included by targets to avoid redudant code
-* `/Docs/` - Documentation on how to make specific builds (how to setup the build environment)
+* [Docs/](Docs/) - Documentation on how to make specific builds, and how to setup the build environment
+* [Target/](Target/) - Build targets
+* [Include/](Include/) - Mini makefiles included by targets to avoid redudant code

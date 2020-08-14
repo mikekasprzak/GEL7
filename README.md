@@ -1,8 +1,5 @@
 # GEL7 Project Setup Instructions
-* [MinGW64 Setup Instructions (32bit and 64bit)](docs/README-mingw.md) - Windows MSYS2
-* [Linux/WSL Setup Instructions](docs/README-linux.md) - Ubuntu or WSL
-* [Android Setup Instructions](docs/README-android.md) - Gradle
-* [Apple Setup Instructions (macOS, iOS, tabletOS, tvOS)](docs/README-apple.md) - macOS
+See [Build/Docs](Build/Docs/).
 
 # `config.mk` options
 Create this file in the root of your project and you can add settings used by the GNU Make toolchain.
