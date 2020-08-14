@@ -1,4 +1,4 @@
-# MinGW64 builds
+# Vulkan builds
 Install Msys2
 
 ```
