@@ -1,9 +1,9 @@
 DEFINE						+=	USES_SDL2
 USES_SDL2					:=	1
 
-SRC_DIRS					+=	src/Main/SDL2 \
-								src/Event/SDL2 \
-								src/Input/SDL2
+SRC_DIRS					+=	src/GEL7/Main/SDL2 \
+								src/GEL7/Event/SDL2 \
+								src/GEL7/Input/SDL2
 
 # Currently only ignored by Android
 ifdef USES_UNIX_TOOLS

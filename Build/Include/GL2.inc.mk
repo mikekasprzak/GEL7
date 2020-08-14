@@ -4,7 +4,7 @@ USES_GL2					:=	1
 USES_GLSL					:=	1
 USES_DESKTOP_GL				:=	1
 
-SRC_DIRS					+=	src/GFX/GL
+SRC_DIRS					+=	src/GEL7/GFX/GL
 
 # MinGW
 ifneq ($(MSYSTEM),)

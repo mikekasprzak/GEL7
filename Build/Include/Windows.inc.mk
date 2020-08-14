@@ -12,7 +12,7 @@ LD_FLAGS					+=
 endif # STATIC
 
 # Icons and Windows Metadata
-OTHER_O_FILES				+=	win32/*.o
+OTHER_O_FILES				+=	content/win32/*.o
 
 # Enable debug symbols
 ifdef   DEBUG

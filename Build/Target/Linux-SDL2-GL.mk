@@ -1,12 +1,12 @@
-include src/Build/Include/Clang.inc.mk
-include src/Build/Include/Linux.inc.mk
+include src/GEL7/Build/Include/Clang.inc.mk
+include src/GEL7/Build/Include/Linux.inc.mk
 
-include src/Build/Include/GL2.inc.mk
-include src/Build/Include/GLEW.inc.mk
-include src/Build/Include/SDL2.inc.mk
+include src/GEL7/Build/Include/GL2.inc.mk
+include src/GEL7/Build/Include/GLEW.inc.mk
+include src/GEL7/Build/Include/SDL2.inc.mk
 
 
-SRC_DIRS		+=	src/Platform/SDL2-GL
+SRC_DIRS		+=	src/GEL7/Platform/SDL2-GL
 
 
 .C_FLAGS		+=	$(SDL2_C_FLAGS) $(GFX_C_FLAGS) $(PLATFORM_C_FLAGS) $(COMPILER_C_FLAGS)

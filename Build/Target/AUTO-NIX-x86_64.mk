@@ -1,1 +1,1 @@
-include src/Build/Target/Linux-SDL2-GL.mk
+include src/GEL7/Build/Target/Linux-SDL2-GL.mk

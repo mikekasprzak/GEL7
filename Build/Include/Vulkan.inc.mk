@@ -1,7 +1,7 @@
 DEFINE						+=	USES_VULKAN
 USES_VULKAN					:=	1
 
-SRC_DIRS					+=	src/GFX/Vulkan
+SRC_DIRS					+=	src/GEL7/GFX/Vulkan
 
 COMMON_FLAGS				+=	
 

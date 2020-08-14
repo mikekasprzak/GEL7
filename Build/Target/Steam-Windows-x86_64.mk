@@ -1,1 +1,1 @@
-include src/Build/Target/MinGW-SDL2-Angle.mk
+include src/GEL7/Build/Target/MinGW-SDL2-Angle.mk
