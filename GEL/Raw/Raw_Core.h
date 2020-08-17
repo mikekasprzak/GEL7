@@ -237,16 +237,16 @@ inline void raw_Delete( void* _Data ) {
 	delete [] reinterpret_cast<char*>(_Data);
 }
 // - ------------------------------------------------------------------------------------------ - //
-inline void* raw_New( const char* _FileName ) {
+inline void* raw_ReadNew( const char* _fileName, st* _size ) {
 	// Open File //
-	FILE* fp = fopen(_FileName, "rb");
+	FILE* fp = fopen(_fileName, "rb");
 	if (fp == 0) {
 		return 0;
 	}
 	
 	// Determine how large file is //
 	fseek(fp, 0, SEEK_END);
-	st Size = ftell(fp);
+	st size = ftell(fp);
 #ifdef _MSC_VER
 	fseek(fp, 0L, SEEK_SET);
 #else // _MSC_VER //
@@ -254,11 +254,16 @@ inline void* raw_New( const char* _FileName ) {
 #endif // _MSC_VER //
 	
 	// Allocate space //
-	void* p = raw_New(Size);
+	void* p = raw_New(size);
 	// TODO: Assert failure allocating block //
 	
 	// Read data //
-	fread(p, 1, Size, fp);
+	fread(p, 1, size, fp);
+
+	// Write size //
+	if (_size) {
+		*_size = size;
+	}
 	
 	// Close file //
 	fclose(fp);
