@@ -1,4 +1,0 @@
-DEFINE						+=	USES_SPINE
-
-SRC_DIRS					+=	src/GEL/External/spine-cpp/src
-INCLUDE_DIRS				+=	src/GEL/External/spine-cpp/include
