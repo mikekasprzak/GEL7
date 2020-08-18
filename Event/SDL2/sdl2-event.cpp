@@ -3,9 +3,9 @@
 #include <Event/Event_SDL2.h>
 #include <Main/Main.h>
 #include <Platform/Platform.h>
+#include <Platform/Platform_SDL2.h>
 #include <Game/Game.h>
 #include <Input/Input.h>
-#include <GEL/GEL_SDL2.h>
 
 
 struct EventState {

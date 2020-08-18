@@ -1,5 +1,5 @@
 #include "Time.h"
-#include <GEL/GEL_SDL2.h>
+#include <Platform/Platform_SDL2.h>
 
 GELTime gel_TimeGet() {
 #ifdef USES_SDL2

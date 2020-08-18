@@ -8,7 +8,7 @@
 #include <Main/Main.h>
 
 #ifdef USES_SDL2
-#include <GEL/GEL_SDL2.h>				// Required to correctly transform main function
+#include <Platform/Platform_SDL2.h>			// Required to correctly transform main function
 #endif // USES_SDL2
 	
 //	{

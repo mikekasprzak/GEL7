@@ -3,7 +3,7 @@
 // GelFile_SDL2
 // - ------------------------------------------------------------------------------------------ - //
 #include "../Types/Types.h"
-#include <GEL/GEL_SDL2.h>			// SDL_RWops
+#include <Platform/Platform_SDL2.h>		// SDL_RWops
 //#include <stdio.h>				// remove
 // - ------------------------------------------------------------------------------------------ - //
 

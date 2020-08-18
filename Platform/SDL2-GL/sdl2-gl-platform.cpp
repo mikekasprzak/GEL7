@@ -1,9 +1,9 @@
 #include <GEL/GEL.h>
-#include <GEL/GEL_OpenGL.h>
-#include <GEL/GEL_SDL2.h>
-#include <GEL/GEL_SDL2_Internal.h>
+#include <GFX/GFX_OpenGL.h>
 #include <Main/Main.h>
 #include <Platform/Platform.h>
+#include <Platform/Platform_SDL2.h>
+#include <Platform/Platform_SDL2_Internal.h>
 
 #ifdef    USES_GLES2
 #include <string.h>	// Need this to parse strings

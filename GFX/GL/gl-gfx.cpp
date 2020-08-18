@@ -1,6 +1,6 @@
 #include <GEL/GEL.h>
-#include <GEL/GEL_OpenGL.h>
 #include <GFX/GFX.h>
+#include <GFX/GFX_OpenGL.h>
 
 
 struct GFXProgram {
